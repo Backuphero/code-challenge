@@ -51,11 +51,7 @@ const isPalindrome = function(str) {
      c = c + a.pop();
 }
 
-if (b === c) {
-  return ('true');
-} else {
-  return('false');
-}
+return (b === c);
 };
 
 
